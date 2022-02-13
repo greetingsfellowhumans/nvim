@@ -7,4 +7,13 @@ defmodule Elix do
     end
   end
 
+  @doc """
+  SNIPPETS: Call these from insert mode
+
+  Leader + m = %{}
+  Leader + io = IO.inspect(, label: "")
+  Leader + t = <%=  %>
+
+  """
+
 end

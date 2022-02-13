@@ -4,5 +4,6 @@ local opts = {noremap = true }
 map('n', '<leader>io', '<Insert>IO.inspect(, label: "")<Esc>%', opts)
 map('i', '<leader>io', 'IO.inspect(, label: "")<Esc>%a', opts)
 map('i', '<leader>m', '%{}<Esc><Insert>', opts)
+map('i', '<leader>t', '<%=  %><Esc>hhh<Insert>', opts)
 
 
