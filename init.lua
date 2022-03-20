@@ -52,8 +52,10 @@ require('custom.chad')
 require('custom.global_settings')
 require('custom.lualine')
 require('custom.remaps')
+require('custom.ex_snip')
 require('custom.slime')
 require('custom.trouble')
+require('custom.yankhighlight')
 
 -- LSP stuff
 --require('custom.lsp_client')

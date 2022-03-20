@@ -29,3 +29,6 @@ map('n', '<C-f>', ':Rg<Cr>', opts)         -- Search Files By Contents --
 map('n', '<Space>', ':noh<Cr>', opts)  -- Remove search highlight with Space
 map('n', '<leader>/', ':%s//', opts)
 
+-- Uppercase 'Y' and 'P' yank and paste into system clipboard --
+map('n', '<leader>y', '"+y', opts)
+map('n', '<leader>p', '"+p', opts)
