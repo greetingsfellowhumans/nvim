@@ -47,7 +47,7 @@ require('packer').startup(function()
   }
 end)
 
-require('nightfox').load('nordfox')
+-- require('nightfox').load('nordfox')
 require('custom.chad')
 require('custom.global_settings')
 require('custom.lualine')
@@ -61,3 +61,5 @@ require('custom.yankhighlight')
 --require('custom.lsp_client')
 require('custom.elixirls')
 -- require('custom.treesitter')
+
+vim.cmd("colorscheme nightfox")
